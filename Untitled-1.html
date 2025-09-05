@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Проверка бронирования</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 40px;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    .airlines {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .airlines a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      height: 80px; /* одинаковая высота карточки */
+    }
+    .airlines a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    .airlines img {
+      max-height: 75px; /* одинаковая высота логотипов */
+      width: auto;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <h2>Проверка бронирования</h2>
+    <!-- A -->
+  <h3>A</h3>
+  <div class="airlines">
+    <a href="https://en.aegeanair.com/plan/my-booking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Aegean-Airlines-logo.png" alt="Aegean">
+    </a>
+    <a href="https://www.aeroflot.ru/ru-ru" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/02/Aeroflot-Logo.png" alt="Aeroflot">
+    </a>
+    <a href="https://www.aerolineas.com.ar/?activeTab=myReservation" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Aerolineas-Argentinas-Logo.png" alt="Aerolineas Argentinas">
+    </a>
+    <a href="https://airalgerie.dz/en/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Air-Algerie-Logo.png" alt="Air Algerie">
+    </a>
+    <a href="https://www.airarabia.com/en/modify-flight" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Air-Arabia-logo.png" alt="Air Arabia">
+    </a>
+    <a href="https://www.aircalin.eu/en" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Aircalin-Logo.png" alt="Aircalin">
+    </a>
+      <a href="https://www.aircanada.com/home/es/en/aco/trips" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/03/Air-Canada-Logo.png" alt="Air Canada">
+    </a>
+     <a href="https://wwws.airfrance.es/trip/flight-details" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/03/Air-France-Logo.png" alt="Air France">
+    </a>
+    <a href="https://www.airmauritius.com/en/book-and-manage/manage/manage-booking" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Air-Mauritius-logo.png" alt="Air Air Mauritius">
+    </a>
+     <a href="https://www.airserbia.com/ru/my-trips" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Air-Serbia-Logo.png" alt="Air Serbia">
+    </a>
+      <a href="https://www.airtahitinui.com/en/manage-my-booking" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Air-Tahiti-Nui-Logo.png" alt="Air Tahiti Nui">
+    </a>
+        <a href="https://www.americanairlines.es/intl/es/index_en.jsp?locale=en_ES" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2016/10/American-Airlines-Logo.png" alt="American">
+    </a>
+         <a href="https://www.atlanticairways.com/en/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Atlantic-Airways-Logo.png" alt="Atlantic">
+    </a>
+  </div>
+    <!-- B -->
+  <h3>B</h3>
+  <div class="airlines">
+    <a href="https://belavia.by/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Belavia_logo.svg" alt="Belavia">
+    </a>
+    <a href="https://www.britishairways.com/travel/managebooking/public/en_us" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2016/10/British-Airways-Logo.png" alt="British Airways">
+    </a>
+  </div>
+     <!-- C -->
+  <h3>C</h3>
+  <div class="airlines">
+    <a href="https://www.cathaypacific.com/mb/#!/en_US/login" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Cathay-Pacific-Logo.png" alt="Cathay">
+    </a>
+       <a href="https://booking.croatiaairlines.com/plnext/FPCcroatiaairlinesDX/Override.action?DIRECT_RETRIEVE=TRUE&SO_SITE_MIDDLE_NAME_IN_NM=&ACTION=MODIFY&EMBEDDED_TRANSACTION=GetPNRsList&SO_SITE_RT_PRICE_FROM_ETKT=TRUE&SO_SITE_ALLOW_TKNE_PARSING=TRUE&SITE_ALLOW_CS_INTERLINE=FALSE&SITE_ALLOW_FS_CODE_SHARE=TRUE&SITE_ALLOW_CS_CODE_SHARE=TRUE&SO_SITE_BOOL_ISSUE_SERVICES=FALSE&TRIP_FLOW=YES&SO_SITE_ALLOW_DIRECT_RT=TRUE&SO_SITE_PNR_SERV_REQ_LOGIN=NO&SO_SITE_DISPL_SPECIAL_REQS=TRUE&SO_SITE_ALLOW_PNR_SERV=YES&SO_SITE_ALLOW_PNR_MODIF=Y&SO_SITE_ALLOW_TKT_PNR_MODIF=Y&SO_SITE_RT_SHOW_PRICES=TRUE&SO_SITE_ETKT_VIEW_ENABLED=TRUE&SO_SITE_RT_PRICE_FROM_TST=TRUE&SO_SITE_OFFICE_ID=ZAGOU08CC&SO_SITE_QUEUE_OFFICE_ID=ZAGOU08CC&SO_SITE_OH_USE_BKDATE_BUF=FALSE&SO_SITE_USE_TIME_TO_THINK=TRUE&EXTERNAL_ID=BOOKING&SO_SITE_ALLOW_CH_SERV_MODIF=TRUE&SO_SITE_SERVICE_MODIFICATION=TRUE&SO_SITE_CHARGEABLE_SEATMAP=TRUE&SO_SITE_SEATMAP_ORIENTATION=VERTICAL&SO_SITE_ALLOW_FS_CODE_SHARE=FALSE&SO_SITE_SPEC_SERV_CHARGEABLE=TRUE&SO_SITE_PURC_DISP_MANAGE_SVC=TRUE&CSSR_STD_CTG_VERSION=15.1&CSSR_RT_OPE_FROM_SEG=false&SITE=BAXGBNEW&LANGUAGE=GB&SO_GL=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3CSO_GL%3E%3CGLOBAL_LIST%20mode%3D%22complete%22%3E%0A%3CNAME%3ESO_SINGLE_MULTIPLE_COMMAND_BUILDER%3C%2FNAME%3E%0A%3CLIST_ELEMENT%3E%3CCODE%3E1%3C%2FCODE%3E%3C!--CommandPriority--%3E%0A%3CLIST_VALUE%3ERM%20TR_CODE%3A%20CTN00001%20%20%20%20%3C%2FLIST_VALUE%3E%3C!--Command--%3E%0A%3CLIST_VALUE%3ES%3C%2FLIST_VALUE%3E%3C!--CommandTypeID--%3E%0A%3CLIST_VALUE%2F%3E%3C!--Condition--%3E%0A%3CLIST_VALUE%3ECREATION%3C%2FLIST_VALUE%3E%3C!--SendCommandAt--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendForEachPax--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendWithPaxAssoc--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SegmentAssociation--%3E%0A%3C%2FLIST_ELEMENT%3E%3CLIST_ELEMENT%3E%3CCODE%3E2%3C%2FCODE%3E%3C!--CommandPriority--%3E%0A%3CLIST_VALUE%3ERM%20FOL_LANG%3A%2020FOL_LANG%20%20%20%20%20%20%20%20%20%3C%2FLIST_VALUE%3E%3C!--Command--%3E%0A%3CLIST_VALUE%3ES%3C%2FLIST_VALUE%3E%3C!--CommandTypeID--%3E%0A%3CLIST_VALUE%2F%3E%3C!--Condition--%3E%0A%3CLIST_VALUE%3ECREATION%3C%2FLIST_VALUE%3E%3C!--SendCommandAt--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendForEachPax--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendWithPaxAssoc--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SegmentAssociation--%3E%0A%3C%2FLIST_ELEMENT%3E%3CLIST_ELEMENT%3E%3CCODE%3E3%3C%2FCODE%3E%3C!--CommandPriority--%3E%0A%3CLIST_VALUE%3ERM%20FOL_TYPE%3A%20FLEX_PRICER%3C%2FLIST_VALUE%3E%3C!--Command--%3E%0A%3CLIST_VALUE%3ES%3C%2FLIST_VALUE%3E%3C!--CommandTypeID--%3E%0A%3CLIST_VALUE%2F%3E%3C!--Condition--%3E%0A%3CLIST_VALUE%3ECREATION%3C%2FLIST_VALUE%3E%3C!--SendCommandAt--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendForEachPax--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendWithPaxAssoc--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SegmentAssociation--%3E%0A%3C%2FLIST_ELEMENT%3E%3CLIST_ELEMENT%3E%3CCODE%3E4%3C%2FCODE%3E%3C!--CommandPriority--%3E%0A%3CLIST_VALUE%3ERM%20FOL_IP%3A%202086.127.230.27%3C%2FLIST_VALUE%3E%3C!--Command--%3E%0A%3CLIST_VALUE%3ES%3C%2FLIST_VALUE%3E%3C!--CommandTypeID--%3E%0A%3CLIST_VALUE%2F%3E%3C!--Condition--%3E%0A%3CLIST_VALUE%3ECREATION%3C%2FLIST_VALUE%3E%3C!--SendCommandAt--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendForEachPax--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendWithPaxAssoc--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SegmentAssociation--%3E%0A%3C%2FLIST_ELEMENT%3E%3CLIST_ELEMENT%3E%3CCODE%3E5%3C%2FCODE%3E%3C!--CommandPriority--%3E%0A%3CLIST_VALUE%3ERM%20DESKTOP_PNR%3A%20YES%3C%2FLIST_VALUE%3E%3C!--Command--%3E%0A%3CLIST_VALUE%3ES%3C%2FLIST_VALUE%3E%3C!--CommandTypeID--%3E%0A%3CLIST_VALUE%2F%3E%3C!--Condition--%3E%0A%3CLIST_VALUE%3ECREATION%3C%2FLIST_VALUE%3E%3C!--SendCommandAt--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendForEachPax--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SendWithPaxAssoc--%3E%0A%3CLIST_VALUE%2F%3E%3C!--SegmentAssociation--%3E%0A%3C%2FLIST_ELEMENT%3E%3C%2FGLOBAL_LIST%3E%3C%2FSO_GL%3E&_gl=1*1ulqr53*_gcl_au*NjQzNjYzMTMzLjE3NTcwNjY4NTI.#/TLIST" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Croatia-Airlines-Logo.png" alt="Croatia Airlines">
+    </a>
+  </div>
+      <!-- D -->
+  <h3>D</h3>
+  <div class="airlines">
+    <a href="https://www.delta.com/eu/en" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2017/09/Delta-Air-Lines-Logo.png" alt="Delta">
+    </a>
+  </div>
+    <!-- E -->
+  <h3>E</h3>
+  <div class="airlines">
+    <a href="https://www.emirates.com/es/english/manage-booking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/03/Emirates-Logo.png" alt="Emirates">
+    </a>
+       <a href="https://dxbooking.ethiopianairlines.com/dx/ETDX/#/home?locale=en-GB&tabIndex=3" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Ethiopian-Airlines-Logo.png" alt="Ethiopian">
+    </a>
+  </div>
+      <!-- F -->
+  <h3>F</h3>
+  <div class="airlines">
+    <a href="https://www.finnair.com/es-en/manage" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/03/Finnair-Logo.png" alt="Finnair">
+    </a>
+  </div>
+      <!-- I -->
+  <h3>I</h3>
+  <div class="airlines">
+    <a href="https://www.iberia.com/es/gestion-de-reservas/?language=es&market=es&channel=COM#!/chktrp" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Iberia-logo.png" alt="Iberia">
+    </a>
+  </div>
+       <!-- J -->
+  <h3>J</h3>
+  <div class="airlines">
+    <a href="https://booking.jal.co.jp/jl/dom-pbkg/manage-booking" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Japan-Airlines-logo.png" alt="Japan">
+    </a>
+  </div>
+        <!-- K -->
+  <h3>K</h3>
+  <div class="airlines">
+    <a href="https://www.kenya-airways.com/en/book-manage/manage-booking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/02/Kenya-Airways-logo.png" alt="Kenya">
+    </a>
+      <a href="https://www.klm.es/en/trip/flight-details" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/KLM-logo.png" alt="KLM">
+    </a>
+         <a href="https://www.koreanair.com/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/03/Korean-Air-Logo.png" alt="Korean">
+    </a>
+  </div>
+         <!-- L -->
+  <h3>L</h3>
+  <div class="airlines">
+    <a href="https://www.latamairlines.com/es/en/my-trips" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/02/LAN-Airlines-Logo.png" alt="Latam">
+    </a>
+        <a href="https://www.lot.com/es/en" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/LOT-Polish-Airlines-Logo.png" alt="LOT">
+    </a>
+  </div>
+   <!-- N -->
+  <h3>N</h3>
+  <div class="airlines">
+    <a href="https://book-nac.crane.aero/ibe/reservation" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Nepal_Airlines_logo.png" alt="Nepal">
+    </a>
+  </div>
+     <!-- O -->
+  <h3>O</h3>
+  <div class="airlines">
+    <a href="https://www.omanair.com/en/manage-bookings" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Oman-Air-Logo.png" alt="Oman">
+    </a>
+  </div>
+      <!-- P -->
+  <h3>P</h3>
+  <div class="airlines">
+    <a href="https://www.philippineairlines.com/ph/en/manage-booking.html" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Philippine-Airlines-Logo.png" alt="Philippine">
+    </a>
+  </div>
+       <!-- Q -->
+  <h3>Q</h3>
+  <div class="airlines">
+    <a href="https://www.qantas.com/es/en.html#manage-booking" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2017/05/Qantas-Logo.png" alt="Qantas">
+    </a>
+    <a href="https://www.qatarairways.com/en-us/homepage.html" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/03/Qatar-Airways-Logo.png" alt="Qatar">
+    </a>
+  </div>
+       <!-- R -->
+  <h3>R</h3>
+  <div class="airlines">
+    <a href="https://www.royalairmaroc.com/int-en" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/03/Royal-Air-Maroc-Logo.png" alt="Royal Air Maroc">
+    </a>
+    <a href="https://www.rj.com/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/02/Royal-Jordanian-logo.png" alt="Royal Jordanian">
+    </a>
+  </div>
+   <!-- S -->
+  <h3>S</h3>
+  <div class="airlines">
+    <a href="https://www.flysas.com/managemybooking/managemybooking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2022/08/SAS-Logo.png" alt="SAS">
+    </a>
+     <a href="https://www.saudia.com/pages/manage-booking?sc_lang=ru" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Saudi-Arabian-Airlines-Logo.png" alt="Saudia">
+    </a>
+      <a href="https://www.singaporeair.com/en_UK/sg/plan-travel/your-booking/managebooking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Singapore-Airlines-Logo.png" alt="Singapore">
+    </a>
+    <a href="https://www.smartwings.com/en/my-flights" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/Smartwings-Logo.png" alt="Smartwings">
+    </a>
+     <a href="https://www.srilankan.com/en_uk/plan-and-book/manage-your-booking" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Srilankan-Airlines-logo.png" alt="SriLankan">
+    </a>
+    <a href="https://reservations.flyslm.com/ibe/reservation" target="_blank">
+      <img src="https://reservations.flyslm.com/ibe/css/hitit-ui/1.0.0/assets/logo_surinam.svg" alt="Surinam">
+    </a>
+  </div>
+       <!-- T -->
+  <h3>T</h3>
+  <div class="airlines">
+    <a href="https://flytaag.com/en/Booking-and-managing/Flights/Change-booking" target="_blank">
+      <img src="https://flytaag.com/Portals/_default/Skins/TAAG/images/taag-logo.png" alt="TAAG">
+    </a>
+       <a href="https://www.flytap.com/en-es#special-anchor-my-travels" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2019/12/TAP-Portugal-Logo.png" alt="TAP">
+    </a>
+         <a href="https://www.tarom.ro/en/my-booking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2023/05/TAROM-Logo.png" alt="Tarom">
+    </a>
+          <a href="https://www.thaiairways.com/en-th/book/my-trips" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Thai-Airways-Logo.png" alt="Thai">
+    </a>
+            <a href="https://www.tunisair.com/en/mes-reservations" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/02/Tunisair-logo.png" alt="Tunis">
+    </a>
+             <a href="https://www.turkishairlines.com/en-int/flights/manage-booking/" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2020/04/Turkish_Airlines_logo.png" alt="Turkish">
+    </a>
+  </div>
+    <!-- U -->
+  <h3>U</h3>
+  <div class="airlines">
+    <a href="https://www.united.com/en/us/manageres/mytrips" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2017/06/United-Airlines-Logo.png" alt="United">
+    </a>
+  </div>
+      <!-- V -->
+  <h3>V</h3>
+  <div class="airlines">
+    <a href="https://www.vietnamairlines.com/vn/en/buy-tickets-other-products/booking-and-manage-bookings/reservation-management" target="_blank">
+      <img src="https://1000logos.net/wp-content/uploads/2021/02/Vietnam-Airlines-logo.png" alt="Vietnam">
+    </a>
+  </div>
+</body>
+</html>
